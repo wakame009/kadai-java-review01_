@@ -7,8 +7,8 @@ public class Review01 {
         int pay = price + tax;
         System.out.println(price + "円の商品の税込み価格は" + pay + "円(消費税は" + tax + "円)です。");
     }
-    public static int sumMethod2(int price, int tax) {
-        int result =  price+  tax;
+    public static int tax(int price) {
+        int result = (int)(price * 0.1);
         return result;
     }
 }
